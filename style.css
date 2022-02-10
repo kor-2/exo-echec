@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+html,
+body{
+    margin: 0;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+#container{
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(8, 100px);
+    grid-template-rows: repeat(8, 100px);
+}
+
+
+.case{
+    border: 1px solid gray;
+    text-align: center;
+    
+}
+
+.blanc{
+    color: black;
+}
+.noir{
+    background-color: black;
+    color: white;
+}
